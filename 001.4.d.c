@@ -14,10 +14,11 @@ printf("Podaj dowolna liczbe rzeczywista: \n");
 scanf("%f", &liczba);
 
 if (liczba==0){
-    printf("Nie mozna podac odwrotnosci dla liczby '0'");
+    printf("\nNie mozna podac odwrotnosci dla liczby '0'\n");
 }
 else {
-    printf("\nLiczba przeciwna to: %f", 1/liczba);
+    printf("\nOdwrotnosc podanej liczby to: %f \n", 1/liczba);
+
 }
 
 
